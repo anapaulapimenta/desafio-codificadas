@@ -1,0 +1,10 @@
+t = int(input())
+
+for _ in range(t):
+    m = int(input())
+
+    potencia = 1 
+    while potencia * 10 <= m:
+        potencia *= 10
+
+    print(m - potencia)
